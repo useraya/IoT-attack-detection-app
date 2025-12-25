@@ -81,41 +81,6 @@ The `finalapp.py` file provides:
 - Python 3.7 or higher
 - pip package manager
 
-### Setup Instructions
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/iot-attack-detection.git
-cd iot-attack-detection
-```
-
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
-3. Verify model files are present:
-   - `model.pkl` (trained Random Forest model)
-   - `scaler.pkl` (feature scaler)
-   - `label_encoder.pkl` (attack type encoder)
-
-## Usage
-
-### Running the Jupyter Notebook
-
-```bash
-jupyter notebook notebook.ipynb
-```
-
-Explore the complete ML pipeline including EDA, preprocessing, model training, and evaluation.
-
-### Running the Web Application
-
-```bash
-streamlit run app.py
-```
-
-The application will open in your browser at `http://localhost:8501`
 
 ### Using the Web Interface
 
@@ -143,16 +108,16 @@ The application will open in your browser at `http://localhost:8501`
 ## Project Structure
 
 ```
-iot-attack-detection/
-├── ML_IoT_Attack.ipynb      # Complete ML pipeline and analysis
-├── finalapp.py              # Streamlit web application
-├── model.pkl                # Trained Random Forest model
-├── scaler.pkl               # Feature scaler
-├── label_encoder.pkl        # Label encoder for attack types
-├── RT-IoT2022.txt           # Dataset (if included)
-├── requirements.txt         # Python dependencies
-├── mylogo.png               # My Logo
-└── README.md                # This file
+iot-attack-detection-app/
+├── ML_IoT_Attack.ipynb      
+├── finalapp.py              
+├── model.pkl                
+├── scaler.pkl               
+├── label_encoder.pkl        
+├── RT-IoT2022.txt           
+├── requirements.txt        
+├── mylogo.png               
+└── README.md              
 ```
 
 ## Dependencies
@@ -177,13 +142,6 @@ pip install -r requirements.txt
 The application is deployed on **Streamlit Cloud Community**.
 
 **Live Application**: https://iot-attack-detection-app-app.streamlit.app/
-
-### Deployment Steps
-
-1. Push code to GitHub repository
-2. Connect repository to Streamlit Cloud
-3. Configure deployment settings
-4. Application automatically deploys and updates
 
 ## Project Methodology
 
@@ -214,5 +172,3 @@ This project is for educational purposes as part of the EHTP Data Science progra
 
 For questions or feedback regarding this project:
 - **Email**: [contact.es.ayah@gmail.com]
-- **GitHub**: [your-github-username]
-- **Institution**: EHTP - École Hassania des Travaux Publics
