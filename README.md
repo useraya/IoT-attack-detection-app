@@ -4,7 +4,7 @@ A machine learning-based web application for detecting and classifying cyber att
 
 ## Project Context
 
-This project is part of the **Machine Learning Mini-Project 2** for the Data Science program at EHTP (École Hassania des Travaux Publics).
+This project is part of the **Machine Learning Mini-Project 2** for the Data Science program at EHTP (Hassania School of Public Works).
 
 - **Student**: Aya Es
 - **Course**: Machine Learning , DS
@@ -28,7 +28,7 @@ This system uses a Random Forest classifier trained on the RT-IoT2022 dataset to
 ## Project Components
 
 ### 1. Exploratory Data Analysis (Jupyter Notebook)
-The `notebook.ipynb` file contains:
+The `ML_IoT_Attack.ipynb` file contains:
 - Problem understanding and ML role in attack detection
 - Comprehensive data exploration and visualization
 - Variable analysis, correlations, and statistical distributions
