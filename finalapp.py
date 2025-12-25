@@ -70,9 +70,9 @@ with st.sidebar:
     
     st.markdown("---")
     st.subheader(" Developer")
-    st.write("**Student:**Aya")
-    st.write("**Institution:** EHTP ")
-    st.write("**Course:** Data Science")
+    st.write("**Student:** Aya Es ")
+    st.write("**Contact:** contact.es.ayah@gmail.com ")
+    st.write("**Course:** Data Science , ML ")
     
     st.markdown("---")
     st.caption(f"Last updated: {datetime.now().strftime('%Y-%m-%d')}")
@@ -299,7 +299,7 @@ else:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #666; padding: 2rem 0;'>
-    <p>IoT Attack Detection System | EHTP Data Science | 2024-2025</p>
-    <p>Developed by [Aya ] | Mini-projet N°2</p>
+    <p>IoT Attack Detection System | EHTP Data Science , ML  | 2025-2026</p>
+    <p>Developed by Aya Es| Mini-projet N°2</p>
 </div>
 """, unsafe_allow_html=True)
