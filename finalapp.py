@@ -261,12 +261,7 @@ else:
         
         with col2:
             st.markdown("""
-            ### ⚙️ Technical Details
-            
-            **Dataset:** RT-IoT2022
-            - 123,117 instances
-            - 83 features
-            - Real IoT infrastructure data
+            ### Technical Details
             
             **Model Pipeline:**
             1. Data preprocessing
@@ -286,8 +281,6 @@ else:
         st.markdown("""
         ### References
         
-        - **Dataset Source:** [RT-IoT2022 ]
-        - **Institution:** EHTP - École Hassania des Travaux Publics
         - **Program:** Data Science
         - **Course:** Machine Learning Mini-Project 2
         
