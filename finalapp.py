@@ -6,7 +6,7 @@ from datetime import datetime
 
 st.set_page_config(
     page_title="IoT Attack Detection",
-    page_icon="🔒",
+    page_icon="mylogo.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
