@@ -41,7 +41,7 @@ The `ML_IoT_Attack.ipynb` file contains:
 - Feature scaling and normalization
 - Outlier detection and treatment
 - Feature selection and engineering
-- Training and evaluation of 10+ ML algorithms
+- Training and evaluation of 10 ML algorithms
 - Model comparison using various performance metrics
 
 ### 3. Model Selection & Tuning
